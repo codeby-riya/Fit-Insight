@@ -9,7 +9,7 @@ This project was built to explore how machine learning can be used for preventiv
 ##  Features
 
 - Enter your health data (like age, weight, blood pressure, etc.)
-- Get prediction for risk of diabetes, obesity, and 🫀heart disease
+- Get prediction for risk of diabetes, obesity, and heart disease
 - Receive diet and workout recommendations based on your profile
 - Simple and clean interface 
 
