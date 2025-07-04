@@ -31,7 +31,7 @@ function ObesityForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/obesity/predict', formData);
+      const res = await axios.post('https://fit-insight.onrender.com/api/obesity/predict', formData);
       setResult(res.data);
     } catch (err) {
       setResult({ error: 'Error predicting obesity risk.' });

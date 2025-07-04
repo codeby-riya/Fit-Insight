@@ -28,7 +28,7 @@ function HeartForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/heart/predict', formData);
+      const res = await axios.post('https://fit-insight.onrender.com/api/heart/predict', formData);
       setResult(res.data); // { risk: ..., caption: ... }
     } catch (err) {
       setResult({ error: 'Prediction failed. Please try again.' });
