@@ -1,6 +1,6 @@
 #  🏃 FitInsight
 
-FitInsight is a smart fitness and health web app that predicts your risk for obesity, heart disease, and diabetes based on basic health information you provide. Along with predictions, it gives you personalized suggestions like diet tips, workout plans, and general health advice.
+FitInsight is a smart fitness and health web app that predicts your risk for obesity and heart disease based on basic health information you provide. Along with predictions, it gives you personalized suggestions like diet tips, workout plans, and general health advice.
 
 This project was built to explore how machine learning can be used for preventive health awareness.
 
@@ -9,8 +9,7 @@ This project was built to explore how machine learning can be used for preventiv
 ##  Features
 
 - Enter your health data (like age, weight, blood pressure, etc.)
-- Get prediction for risk of diabetes, obesity, and heart disease
-- Receive diet and workout recommendations based on your profile
+- Get prediction for risk of obesity and heart disease
 - Simple and clean interface 
 
 ---
@@ -20,7 +19,6 @@ This project was built to explore how machine learning can be used for preventiv
 - React for the frontend
 - Flask (Python) for the backend
 - scikit-learn for ML-based prediction
-- KNN for recommendation system
 
 ---
 
@@ -29,7 +27,7 @@ This project was built to explore how machine learning can be used for preventiv
 1. You fill out a basic form with your health details.
 2. The data is processed by a trained ML model.
 3. The backend sends back risk predictions.
-4. Based on your profile, you also get suggestions for workouts, 🍎meals, and habits.
+4. Based on your profile, you also get suggestions .
 
 ---
 
