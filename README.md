@@ -1,7 +1,6 @@
 #  🏃 FitInsight
 
-FitInsight is a smart fitness and health web app that predicts your risk for obesity and heart disease based on basic health information you provide. Along with predictions, it gives you personalized suggestions like diet tips, workout plans, and general health advice.
-
+FitInsight is a smart fitness and health web app that predicts your risk for obesity and heart disease based on basic health information you provide.
 This project was built to explore how machine learning can be used for preventive health awareness.
 
 ---
